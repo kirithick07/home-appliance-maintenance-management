@@ -12,6 +12,6 @@ Technology Stack
 - CSS
 - JavaScript
 - MySQL
-- 
+  
 Purpose
 This project is developed as a Semester 5 Capstone Project.
