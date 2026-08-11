@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f4f7fb;
+}
+
+.register-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.register-box {
+    width: 100%;
+    max-width: 430px;
+
+    margin: auto;
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.register-box h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #2563eb;
+
+    margin-bottom: 5px;
+}
+
+.register-box h2 {
+    text-align: center;
+    font-size: 24px;
+
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+
+    margin-bottom: 25px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #2563eb;
+}
+
+.password-box {
+    position: relative;
+}
+
+.password-box input {
+    padding-right: 45px;
+}
+
+.toggle-password {
+    position: absolute;
+
+    right: 10px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    margin: 15px 0;
+}
+
+.terms label {
+    font-size: 14px;
+    color: #555;
+}
+
+.register-message {
+    text-align: center;
+
+    min-height: 20px;
+
+    margin: 10px 0;
+}
+
+.register-button {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #2563eb;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background: #1d4ed8;
+}
+
+.login-link {
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #666;
+}
+
+.login-link a {
+    color: #2563eb;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+
+    .register-box {
+        padding: 25px 20px;
+    }
+
+}
